@@ -1,0 +1,410 @@
+The target system is: Generic -  - 
+The host system is: Darwin - 22.4.0 - arm64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc 
+Build flags: -mlongcalls;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/3.24.0/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++ 
+Build flags: -mlongcalls;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/3.24.0/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+xtensa-esp32s3-elf-gcc (crosstool-NG esp-2022r1) 11.2.0
+Copyright (C) 2021 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_85e50 && [1/2] Building C object CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj
+Using built-in specs.
+COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc
+Target: xtensa-esp32s3-elf
+Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG esp-2022r1) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_85e50.dir/'
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/cc1 -quiet -v -iprefix /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/ /Users/vabatta/.espressif/tools/cmake/3.24.0/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85e50.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -version -o /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc2SYkWF.s
+GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include
+End of search list.
+GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 605c7ff3962f40c2dd4b1829bc1d5186
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_85e50.dir/'
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc2SYkWF.s
+COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/
+LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.'
+[2/2] Linking C executable cmTC_85e50
+Using built-in specs.
+COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc
+COLLECT_LTO_WRAPPER=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper
+Target: xtensa-esp32s3-elf
+Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG esp-2022r1) 
+COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/
+LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_85e50' '-dumpdir' 'cmTC_85e50.'
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/collect2 -plugin /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/liblto_plugin.so -plugin-opt=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//ccgAqLnV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_85e50 /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0 -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_85e50' '-dumpdir' 'cmTC_85e50.'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include]
+  end of search list found
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include]
+  implicit include dirs: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32s3-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_85e50 && [1/2] Building C object CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc]
+  ignore line: [Target: xtensa-esp32s3-elf]
+  ignore line: [Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_85e50.dir/']
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/cc1 -quiet -v -iprefix /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/ /Users/vabatta/.espressif/tools/cmake/3.24.0/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_85e50.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mlongcalls -version -o /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc2SYkWF.s]
+  ignore line: [GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)]
+  ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)]
+  ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 605c7ff3962f40c2dd4b1829bc1d5186]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_85e50.dir/']
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc2SYkWF.s]
+  ignore line: [COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.']
+  ignore line: [[2/2] Linking C executable cmTC_85e50]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32s3-elf]
+  ignore line: [Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
+  ignore line: [COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_85e50' '-dumpdir' 'cmTC_85e50.']
+  link line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/collect2 -plugin /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/liblto_plugin.so -plugin-opt=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//ccgAqLnV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_85e50 /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0 -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj -lgcc -lc -lnosys -lc -lgcc /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//ccgAqLnV.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_85e50] ==> ignore
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o]
+    arg [-L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0] ==> dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0]
+    arg [-L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc] ==> dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc]
+    arg [-L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib] ==> dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib]
+    arg [CMakeFiles/cmTC_85e50.dir/CMakeCCompilerABI.c.obj] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib/crt0.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+  collapse library dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0]
+  collapse library dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc]
+  collapse library dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib]
+  implicit libs: [gcc;c;nosys;c;gcc]
+  implicit objs: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib/crt0.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+  implicit dirs: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_2c671 && [1/2] Building CXX object CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj
+Using built-in specs.
+COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++
+Target: xtensa-esp32s3-elf
+Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG esp-2022r1) 
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2c671.dir/'
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/cc1plus -quiet -v -iprefix /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/ /Users/vabatta/.espressif/tools/cmake/3.24.0/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2c671.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -version -o /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc3esZMk.s
+GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/backward"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include"
+ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/backward
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include
+End of search list.
+GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)
+	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3), GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 91f17acd9f2612e2102003284758b6f6
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2c671.dir/'
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc3esZMk.s
+COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/
+LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.'
+[2/2] Linking CXX executable cmTC_2c671
+Using built-in specs.
+COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++
+COLLECT_LTO_WRAPPER=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper
+Target: xtensa-esp32s3-elf
+Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c,c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes
+Thread model: posix
+Supported LTO compression algorithms: zlib
+gcc version 11.2.0 (crosstool-NG esp-2022r1) 
+COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/
+LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_2c671' '-dumpdir' 'cmTC_2c671.'
+ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/collect2 -plugin /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/liblto_plugin.so -plugin-opt=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//ccXxuvFF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_2c671 /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0 -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o
+COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_2c671' '-dumpdir' 'cmTC_2c671.'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/backward]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include]
+    add: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include]
+  end of search list found
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/11.2.0]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/backward] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/11.2.0/backward]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include]
+  collapse include dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include]
+  implicit include dirs: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/11.2.0;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include/c++/11.2.0/backward;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/sys-include;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(xtensa-esp32s3-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_2c671 && [1/2] Building CXX object CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++]
+  ignore line: [Target: xtensa-esp32s3-elf]
+  ignore line: [Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2c671.dir/']
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/cc1plus -quiet -v -iprefix /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/ /Users/vabatta/.espressif/tools/cmake/3.24.0/CMake.app/Contents/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_2c671.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mlongcalls -version -o /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc3esZMk.s]
+  ignore line: [GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)]
+  ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/backward"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include"]
+  ignore line: [ignoring duplicate directory "/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/../../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/xtensa-esp32s3-elf]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include/c++/11.2.0/backward]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/include-fixed]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/sys-include]
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (crosstool-NG esp-2022r1) version 11.2.0 (xtensa-esp32s3-elf)]
+  ignore line: [	compiled by GNU C version Apple LLVM 13.0.0 (clang-1300.0.27.3)  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 91f17acd9f2612e2102003284758b6f6]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2c671.dir/']
+  ignore line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/as --traditional-format --longcalls -o CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj /var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//cc3esZMk.s]
+  ignore line: [COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-dumpdir' 'CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.']
+  ignore line: [[2/2] Linking CXX executable cmTC_2c671]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/xtensa-esp32s3-elf-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper]
+  ignore line: [Target: xtensa-esp32s3-elf]
+  ignore line: [Configured with: /Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/src/gcc/configure --build=aarch64-build_apple-darwin21.4.0 --host=aarch64-build_apple-darwin21.4.0 --target=xtensa-esp32s3-elf --prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --exec_prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf --with-local-prefix=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf --with-headers=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/builds/xtensa-esp32s3-elf/xtensa-esp32s3-elf/include --with-newlib --enable-threads=no --disable-shared --with-pkgversion='crosstool-NG esp-2022r1' --disable-__cxa_atexit --enable-cxx-flags=-ffunction-sections --disable-libgomp --disable-libmudflap --disable-libmpx --disable-libssp --disable-libquadmath --disable-libquadmath-support --disable-libstdcxx-verbose --with-gmp=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpfr=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-mpc=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --with-isl=/Users/brnomac003/.gitlab-runner/builds/qR2TxTby/0/idf/crosstool-NG/.build/xtensa-esp32s3-elf/buildtools --enable-lto --enable-target-optspace --without-long-double-128 --disable-nls --enable-multiarch --enable-languages=c c++ --disable-libstdcxx-verbose --enable-threads=posix --enable-gcov-custom-rtio --enable-libstdcxx-time=yes]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib]
+  ignore line: [gcc version 11.2.0 (crosstool-NG esp-2022r1) ]
+  ignore line: [COMPILER_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/bin/]
+  ignore line: [LIBRARY_PATH=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/:/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mlongcalls' '-v' '-o' 'cmTC_2c671' '-dumpdir' 'cmTC_2c671.']
+  link line: [ /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/collect2 -plugin /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/liblto_plugin.so -plugin-opt=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper -plugin-opt=-fresolution=/var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//ccXxuvFF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lnosys -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -o cmTC_2c671 /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0 -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc -L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc -lc -lnosys -lc -lgcc /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o /Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../libexec/gcc/xtensa-esp32s3-elf/11.2.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/var/folders/_h/rjg81vwx439d_k2pgp73nwj80000gn/T//ccXxuvFF.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lnosys] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_2c671] ==> ignore
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o]
+    arg [-L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0] ==> dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0]
+    arg [-L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc] ==> dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc]
+    arg [-L/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib] ==> dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib]
+    arg [CMakeFiles/cmTC_2c671.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lnosys] ==> lib [nosys]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o]
+    arg [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o] ==> obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib/crt0.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib/crt0.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o]
+  collapse obj [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+  collapse library dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0]
+  collapse library dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc]
+  collapse library dir [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/bin/../lib/gcc/xtensa-esp32s3-elf/11.2.0/../../../../xtensa-esp32s3-elf/lib] ==> [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib]
+  implicit libs: [stdc++;m;gcc;c;nosys;c;gcc]
+  implicit objs: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib/crt0.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crti.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtbegin.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtend.o;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0/crtn.o]
+  implicit dirs: [/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc/xtensa-esp32s3-elf/11.2.0;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/lib/gcc;/Users/vabatta/.espressif/tools/xtensa-esp32s3-elf/esp-2022r1-11.2.0/xtensa-esp32s3-elf/xtensa-esp32s3-elf/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_ea010 && [1/2] Building C object CMakeFiles/cmTC_ea010.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_ea010
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_05a75 && [1/2] Building C object CMakeFiles/cmTC_05a75.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_05a75
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_491c7 && [1/2] Building C object CMakeFiles/cmTC_491c7.dir/CheckIncludeFile.c.obj
+[2/2] Linking C executable cmTC_491c7
+
+
+
+Determining size of time_t passed with the following output:
+Change Dir: /Users/vabatta/Projects/bleprph/build/bootloader/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Users/vabatta/.espressif/tools/ninja/1.10.2/ninja cmTC_c8d36 && [1/2] Building C object CMakeFiles/cmTC_c8d36.dir/TIME_T_SIZE.c.obj
+[2/2] Linking C executable cmTC_c8d36
+
+
+

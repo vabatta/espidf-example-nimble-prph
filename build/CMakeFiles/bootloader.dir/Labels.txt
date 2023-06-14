@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/vabatta/Projects/bleprph/build/CMakeFiles/bootloader
+/Users/vabatta/Projects/bleprph/build/CMakeFiles/bootloader.rule
+/Users/vabatta/Projects/bleprph/build/CMakeFiles/bootloader-complete.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/vabatta/Projects/bleprph/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
